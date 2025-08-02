@@ -36,13 +36,13 @@ def show_menu():
 
 while True:
     show_menu()
-    choise = int(input())
+    choice = int(input())
 
-    if choise == 1:
+    if choice == 1:
         q = Queue(5)
         print("Очередь создана!")
 
-    elif choise == 2:
+    elif choice == 2:
         try:
             print("Введите элемент для добавления")
             elem = int(input())
@@ -51,14 +51,14 @@ while True:
         except:
             print("Ошибка добавления элемента")
 
-    elif choise == 3:
+    elif choice == 3:
         try:
             elem = q.pop()
             print(f"Получен элемент {elem}")
         except:
             print("Ошибка получения элемента")
 
-    elif choise == 4:
+    elif choice == 4:
         break
     else:
         print("Введена некорректная команда")

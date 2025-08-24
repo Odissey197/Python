@@ -7,12 +7,12 @@ def add_new_worker(name, age, profession):
     cursor.execute("""
     INSERT INTO workers (name, age, profession)
     VALUES (?, ?, ?)
-    """, name, age, profession)
+    """, (name, age, profession))
 
     connection.commit()
 
 def delete_workers(worker_id):
-    cursor.execute("DELETE * FROM workers WHERE id = ?", (worker_id))
+    cursor.execute("DELETE FROM workers WHERE id = ?", (worker_id,))
 
     connection.commit()
 

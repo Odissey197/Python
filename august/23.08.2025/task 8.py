@@ -10,7 +10,7 @@ new_workers = [
     ('Алекс', 30, 'киллер')
 ]
 
-cursor.execute("""
+cursor.executemany("""
 INSERT INTO workers (name, age, profession)
 VALUES (?, ?, ?)
 """, new_workers)

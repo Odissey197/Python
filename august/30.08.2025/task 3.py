@@ -14,3 +14,4 @@ print(json.dumps(data, indent=4, ensure_ascii=False))
 
 with open("task 3.html", "w", encoding="utf-8") as fl:
     fl.write(response.text)
+    

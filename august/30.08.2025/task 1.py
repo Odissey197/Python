@@ -14,3 +14,4 @@ print(f"Тело страницы: {response.text}")
 
 with open("task 1.html", "w", encoding="utf-8") as fl:
     fl.write(response.text)
+    

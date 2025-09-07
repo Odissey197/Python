@@ -34,6 +34,6 @@ print(password)
 
 ## Ссылки
 
-[Мой GitHub](https://github.com/Odissey1986)
+[Мой GitHub](https://github.com/Odissey197)
 
 ![Моё первое фото](https://static.vkusnyblog.com/full/uploads/2010/12/pancakes.jpg)

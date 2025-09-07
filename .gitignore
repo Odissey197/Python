@@ -1,0 +1,5 @@
+*__pyrache__/
+passwords.txt
+
+*.venv/
+*.env
